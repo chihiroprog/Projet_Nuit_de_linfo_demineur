@@ -1,0 +1,48 @@
+header{
+	background-color: bisque;
+	background-image:url(../nuitinfo2k22/image/virus-infection-bacteria-flu-background_1035-18704.png);
+}
+
+h1.demineur_h1{
+	text-align: center;
+}
+
+div.demineur_info_IST{
+	width: 24%;
+	margin: 0 2%;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: #cccdd0;
+}
+div.demineur_jeu{
+	width: 46%;
+	position: ;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: #cccdd0;
+}
+div.demineur_body{
+	display: flex;
+}
+
+div.demineur_jeu > table.demineur_table{
+	text-align: center;
+	margin: 20px 0;
+}
+div.demineur_jeu > div.demineur_grille{
+	position: relative;
+width: fit-content;
+left: 50%;
+transform: translate(-50%);
+margin: 0 0 20px 0;
+}
+
+
+input.demineur_bouton{
+	margin: 0 0 20px 0;
+	position: relative;
+width: fit-content;
+left: 50%;
+transform: translate(-50%);
+}
+

@@ -1,0 +1,112 @@
+header#header{
+		border: solid 2px #32a1ce;
+		border-radius: 3%;
+		padding: auto;
+		margin: 20px;
+	    background: linear-gradient(90deg, rgb(140, 221, 255) 0%, rgb(255, 255, 255) 57%, rgb(128, 200, 255) 100%); 
+}
+
+body{
+
+	background-image:url("../image/virus-infection-bacteria-flu-background_1035-18704.png");
+	
+}
+
+h1.demineur_h1{
+	
+	text-align : center;
+
+}
+
+div.demineur_info_IST{
+	width: 24%;
+	height: 550px;
+	margin: 0 2%;
+	/**border: 2px solid #32a1ce;**/
+	border-radius: 10px;
+	
+	padding: 10px;
+}
+
+div.sousblock{
+	border: 2px solid #32a1ce;
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+div.demineur_jeu{
+	width: 46%;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: #cccdd0;
+}
+div.demineur_body{
+	display: flex;
+}
+
+div.demineur_jeu > table.demineur_table{
+	text-align: center;
+	margin: 20px 0;
+}
+div.demineur_jeu > div.demineur_grille{
+	position: relative;
+width: fit-content;
+left: 50%;
+transform: translate(-50%);
+margin: 0 0 20px 0;
+}
+
+
+input.demineur_bouton{
+	margin: 10 0 20px 0;
+	position: relative;
+	display:block;
+	padding:10px;
+	background-color:#3cdee7;
+	color:#ededed;
+	border-radius:5px;
+	
+	transition:all 0.3s ease 0s;
+width: fit-content;
+left: 50%;
+transform: translate(-50%);
+}
+input.demineur_bouton:hover{
+background-color:rgba(91, 30, 24, 0.8);
+}
+
+div.tab{
+margin: 20px auto 0;
+text-align: justify;
+width : 70%;
+
+}
+
+div.mimi{
+	margin: 5% 0;
+
+}
+
+h2{
+	margin-left: 2%;
+
+}
+
+div.pop{
+	height: 475px;
+
+}
+
+a{
+	list-style-type: none;
+	text-decoration: none;
+}
+
+a:hover{
+color: #32a1ce;
+text-decoration: underline;
+}
